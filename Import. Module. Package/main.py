@@ -1,7 +1,7 @@
 import datetime
 
-from salary import calculate_salary
-from people import get_employes
+from application.salary import calculate_salary
+from application.db.people import get_employes
 
 today_dt = datetime.datetime.today()
 
